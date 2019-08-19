@@ -1,0 +1,975 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+/*body{*/
+    /*font-family: Verdana;*/
+/*}*/
+/*#chessBoardPhrase{*/
+    /*text-align: center;*/
+    /*font-size: 20px;*/
+    /*margin: 20px 0;*/
+/*}*/
+/*.chessBoard{*/
+    /*width: 400px;*/
+    /*height: 400px;*/
+    /*margin: 0 auto;*/
+    /*border: 2px dashed black;*/
+
+/*}*/
+/*.space{*/
+    /*width: 33.3%;*/
+    /*height: 33.3%;*/
+    /*float: left;*/
+    /*border: 1px dashed black;*/
+    /*box-sizing: border-box;*/
+    /*cursor:pointer;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*font-size: 50px;*/
+/*}*/
+
+
+
+
+/*Стили для крестиков ноликов*/
+
+
+/*стили для змейки*/
+
+
+
+
+/** {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*overflow: hidden;*/
+/*}*/
+
+/*body {*/
+    /*background: #000;*/
+/*}*/
+
+/*#snake-field {*/
+    /*margin-bottom: 10px;*/
+/*}*/
+
+/*#snake-start,*/
+/*#snake-renew {*/
+    /*margin-left: 10px;*/
+    /*padding: 10px;*/
+/*}*/
+
+/*.game-table {*/
+    /*border: 2px solid #fff;*/
+    /*border-collapse: collapse;*/
+/*}*/
+
+/*.game-table-cell {*/
+    /*width: 15px;*/
+    /*height: 15px;*/
+   /**/
+    /*border-collapse: collapse;*/
+/*}*/
+
+/*.snake-unit {*/
+    /*background: #fff;*/
+/*}*/
+
+/*.food-unit {*/
+    /*background: red;*/
+/*}*/
+
+
+
+
+/*Конец стилей змейки*/
+
+
+
+/*.container{*/
+
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+
+/*    padding:0 100px ;*/
+/*    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);*/
+/*    border: 1px solid #ececec;*/
+/*    background-color: #ffffff;*/
+/*    box-sizing: border-box;*/
+/*    margin: 0  auto;*/
+
+
+/*}*/
+/*.box{*/
+/*    height: 100px;*/
+/*}*/
+/*.logo{*/
+
+
+/*    color: #222222;*/
+/*    font-family: sans-serif;*/
+/*    font-size: 27px;*/
+/*    font-weight: 300;*/
+/*    line-height: 32px;*/
+/*    text-transform: uppercase;*/
+/*    !* Text style for "BRAN" *!*/
+/*    letter-spacing: 0.68px;*/
+/*    text-decoration: none;*/
+
+
+/*}*/
+/*.styleForD{*/
+/*    color: #f16d7f;*/
+/*    font-family: sans-serif;*/
+/*    font-weight: 400;*/
+
+
+/*    letter-spacing: 0.68px;*/
+/*    text-transform: uppercase;*/
+/*}*/
+/*.myAcc{*/
+
+
+/*    width: 130px;*/
+/*    background-color: #f16d7f;*/
+/*    !* Style for "My Account" *!*/
+
+
+/*    color: #ffffff;*/
+/*    font-family: sans-serif;*/
+/*    font-size: 15px;*/
+/*    font-weight: 400;*/
+/*    line-height: 32px;*/
+/*    !* Text style for "M, y Accou" *!*/
+
+/*}*/
+/*.browse{*/
+
+/*    width: 87px;*/
+/*    border-radius: 3px 0 0 3px;*/
+/*    border: 1px solid #e6e6e6;*/
+/*    background-color: #cdcdcc;*/
+/*    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);*/
+/*    !* Style for "Browse" *!*/
+/*    height: 40px;*/
+
+/*    color: #222222;*/
+/*    font-family: sans-serif;*/
+/*    font-size: 14px;*/
+/*    font-weight: 300;*/
+/*    line-height: 32px;*/
+/*    box-sizing: border-box;*/
+
+/*}*/
+/*.downHeader ul{*/
+/*    display: flex;*/
+/*    !* Style for "Home" *!*/
+/*    padding: 20px 0;*/
+/*    height: 10px;*/
+/*    color: #222222;*/
+/*    font-family: sans-serif;*/
+/*    font-size: 14px;*/
+/*    font-weight: 700;*/
+/*    line-height: 26px;*/
+/*    text-transform: uppercase;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
+/*.downHeader ul li {*/
+/*    list-style: none;*/
+/*    padding: 0 30px;*/
+/*}*/
+/*.downHeader ul li:hover{*/
+/*    border-bottom: 3px solid #f16d7f;*/
+/*}*/
+/*.search{*/
+/*    !* Style for "Rounded Re" *!*/
+/*    width: 317px;*/
+/*    height: 38px;*/
+/*    border-radius: 0 3px 3px 0;*/
+/*    border: 1px solid #e6e6e6;*/
+/*    background-color: #ffffff;*/
+/*}*/
+/*.buttonForSearch {*/
+
+/*    height: 38px;*/
+/*}*/
+/*.groupForSearch{*/
+/*    display: flex;*/
+/*    padding: 0 40px;*/
+/*}*/
+/*.groupForAccount{*/
+/*    display: flex;*/
+/*}*/
+/*.mainGroup{*/
+/*    display: flex;*/
+/*}*/
+
+
+/*!* Slider  *!*/
+
+/*.imgForSlider{*/
+/*    position: relative;*/
+/*    padding-bottom: 20px;*/
+/*    !* Style for "Layer 24" *!*/
+/*    height: 665px;*/
+
+/*}*/
+/*.textForSlider{*/
+/*    position: absolute;*/
+/*    margin-top: 300px;*/
+
+/*    z-index: 39999;*/
+/*    display: flex;*/
+/*    !* Style for "THE BRAND" *!*/
+
+/*    color: #222222;*/
+/*    font-family: sans-serif;*/
+
+/*    font-weight: 400;*/
+/*    text-transform: uppercase;*/
+/*    !* Text style for "T, HE BRAN" *!*/
+/*    font-size: 30px;*/
+
+/*    !* Text style for "OF LUXERIO" *!*/
+/*    letter-spacing: 1px;*/
+/*    !* Text style for "FASHION" *!*/
+
+/*}*/
+/*.redTextInSlider{*/
+/*    color: #f16d7f;*/
+/*    letter-spacing: 1px;*/
+/*}*/
+/*.strip{*/
+/*    !* Style for "Rectangle" *!*/
+/*    width: 12px;*/
+/*    height: 92px;*/
+/*    background-color: #f16d7f;*/
+/*}*/
+
+
+/*Header*/
+.box{
+    width: 90%;
+    margin: auto;
+    padding-top:10px;
+
+}
+.logo{
+    display:flex;
+    flex:1;
+
+}
+header{
+
+    display: flex;
+}
+.headerForm{
+    display: flex;
+    flex:2;
+    height: 80%;
+    margin: auto 0;
+
+    position: relative;
+
+}
+.headerForm input{
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    position: absolute;
+    width: 50%;
+    height: 92%;
+
+}
+#searchBtn{
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    height: 37px;
+    width: 35px;
+    top: 0;
+    right: 31%;
+    z-index: 10;
+    position: absolute;
+
+}
+#browseBtn{
+    width: 87px;
+    height: 38px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+
+    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+}
+
+.btnBasket{
+
+    flex:1;
+}
+.btnAcc{
+    width: 130px;
+    height: 38px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.38px;
+}
+.bran, .d{
+    width: 93px;
+
+    color: #222222;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin: auto 0 ;
+
+}
+.bran{
+    font-family: "sans-serif";
+    font-weight: 300;
+    letter-spacing: 0.68px;
+}
+.d{
+    color: #f16d7f;
+    font-family: "sans-serif";
+    font-weight: 400;
+    letter-spacing: 0.68px;
+}
+/*menuHeader*/
+.boxForMenu{
+    width: 70%;
+    margin: auto;
+    padding-top:10px;
+
+}
+
+.menuItems{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+}
+.menuItem a{
+    text-decoration: none;
+    color: #222222;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.menuItem a:hover{
+    border-bottom: 3px solid #f16d7f;
+}
+        /*upSlider*/
+
+.upSlider{
+    margin-top: 20px;
+    display:flex;
+}
+.textForSlider{
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    border-left: 10px solid #f16d7f;
+    font-size:40px;
+    text-transform:uppercase;
+    margin: 20% 5%;
+}
+.theBrand{
+    font-size:60px;
+}
+.textFashion{
+    color: #f16d7f;
+}
+
+.imgSlider img{
+
+    max-width: 100%;
+}
+
+/*imgRectangle*/
+.imgRectangle{
+    width: 90%;
+    margin: auto;
+    padding-top:10px;
+    display:flex;
+}
+.imgWallet{
+
+    background-color: #dadad2;
+    z-index: 2;
+    max-height: 32%;
+    padding-left: 25%;
+    max-width: 75%;
+}
+.imgManAndWallet{
+  padding-right: 10px;
+}
+.textForRectangle{
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    font-size:18px;
+    text-transform:uppercase;
+    margin: 1% 0;
+}
+.textCategoryRectangle{
+    color: #f16d7f;
+    font-size: 30px;
+}
+
+        /*imgCarts*/
+.topicText{
+    padding-top: 100px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    color: #9f9f9f;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.featuredIt{
+    font-size: 30px;
+    color: #222222;
+}
+.imgCarts{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.upCarts,.downCarts {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.upCarts div, .downCarts div{
+    background-color: #222222;
+}
+.upCarts img:hover,.downCarts img:hover{
+    opacity: 0.3;
+
+}
+.upCarts img,.downCarts img{
+    height: 100%;
+
+}
+.wrapForCarts{
+    display: flex;
+    flex-direction: column;
+}
+.textCart{
+    display: flex;
+    flex-direction:column;
+    background-color: white !important;
+    color: #222222;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+.priceCart{
+    color: #f16d7f;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.wrapForCarts:hover{
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+}
+.btnAdd{
+    position: absolute;
+    height: 5%;
+    width: 8%;
+    border: 1px solid #ffffff;
+    background-color: #222222;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    opacity: 0;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.wrapForCarts:hover .btnAdd{
+    opacity: 1;
+}
+.btnAllProduct{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+.btnAllProduct button {
+    width: 15%;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.38px;
+
+}
+.br{
+    padding:50px;
+}
+
+        /*WomanBanner*/
+.wrapperWomanBanner{
+
+    background-color: #222224;
+
+    display: flex;
+
+
+}
+
+.wrapperForTextBanner{
+    margin: 8% 2%;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 54px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+.womanBannerOffer{
+    color: #f16d7f;
+}
+.womanBannerForWoman{
+    font-size:32px;
+}
+.leftBanner{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.wrapperForLeftBannerText{
+    display: flex;
+
+}
+.wrapperForLeftBannerText img{
+    position: absolute;
+    margin-left: 2%;
+}
+.leftBannerText{
+    display:flex;
+    flex-direction:column;
+    width: 50%;
+    margin: auto;
+}
+.topicBanner{
+    color: #fbfbfb;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    /* Text style for "Free Deliv" */
+    letter-spacing: 0.5px;
+}
+.textBanner{
+    color: #fbfbfb;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    /* Text style for "W, orldwid" */
+    letter-spacing: 0.35px;
+}
+
+                /*Footer*/
+
+.bcgrImgSlider{
+    opacity: 0.5;
+    width: 100%;
+}
+.wrapperForSlider{
+    display: flex;
+    flex-direction: row;
+
+}
+.leftSliderFooter{
+    width: 50%;
+
+    margin: 9% 17%;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+}
+.wrapperForTextInFooterSlider{
+    padding-left: 15%;
+}
+.leftSliderFooter img  {
+    position: absolute;
+}
+.rightSliderFooter{
+    width: 50%;
+    flex-direction:column;
+    margin: 9% 60%;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+}
+.formForText{
+    width: 334px;
+    height: 46px;
+    border-radius: 23px;
+    background-color: #e1e1e1;
+    position: relative;
+
+}
+.formForButton{
+    width: 104px;
+    height: 46px;
+    border-radius: 0 23px 23px 0;
+    background-color: #f16d7f;
+    position: absolute;
+    z-index: 3;
+    
+
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 54px;
+    /* Text style for "Subscribe" */
+    letter-spacing: 0.35px;
+}
+
+.textFooter{
+     padding-top: 20px;
+     display: flex;
+     justify-content:space-around;
+     flex-direction: column;
+     width: 40%;
+     color: #898989;
+     font-family: sans-serif;
+     font-size: 14px;
+     font-weight: 300;
+     line-height: 24px;
+     /* Text style for "Objectivel" */
+     letter-spacing: 0.35px;
+ }
+.br30{
+    padding-top: 30px;
+}
+.upFooter{
+
+    justify-content: center;
+    display:flex;
+
+}
+.rightUpFooter{
+    display:flex;
+    justify-content: center;
+}
+.columnFooter{
+    display: flex;
+    flex-direction:column;
+
+
+}
+.downFooter{
+    background-color: #e6e6e6;
+
+}
+.wrapperDownFooter{
+    display: flex;
+    height: 80px;
+    justify-content:space-between;
+    align-items: center;
+}
+.socialIcon img:hover{
+    background-color: #f16d7f;
+}
+            /*SinglePage*/
+
+    /*Topic*/
+
+.topicHeader{
+    height: 148px;
+    background-color:#f8f3f4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftTopicHeader span{
+    color: #f16d7f;
+    font-family: "sans-serif";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.rightTopicHeader span{
+
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: uppercase;
+    /* Text style for "Home / Men" */
+    color: #636363;
+
+}
+.Arrivals{
+    color: #f16d7f ;
+}
+
+    /*SinglePageSlider*/
+
+.wrapperSinglePageSlider{
+    display: flex;
+    justify-content:center;
+}
+.singlePageSlider{
+    background-color: #f7f7f7;
+}
+
+    /*PriceBlock*/
+
+.priceBlock{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    align-items: center;
+
+}
+.womanCollection{
+    color: #f16d7f;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.topicPriceBlock{
+    color: #4d4d4d;
+    font-family: "sans-serif";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.textPriceBlock{
+    color: #5e5e5e;
+    font-family: sans-serif;
+    width: 50%;
+    margin:auto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.proposedChoice{
+    display:flex;
+    justify-content:space-around;
+    width: 70%;
+    color: #b9b9b9;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.choice{
+    color: #2f2f2f;
+}
+.price{
+    color: #ef5b70;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.chooseText{
+    display:flex;
+    justify-content:space-around;
+    width: 60%;
+}
+.addToCart{
+    border: 1px solid #ef5b70;
+    background-color: #ffffff;
+    color: #ef5b70;
+
+    font-size: 16px;
+    font-weight: 700;
+    width: 537px;
+    height: 55px;
+}
+.proposeSinglePage{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+}
+.topicProposeSinglePage{
+    color: #4d4d4d;
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.imgProposeSinglePage{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+            /*Product*/
+
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+.leftProduct ul ul{
+    display: none;
+    top:100%;
+}
+.leftProduct ul li:hover > ul{
+    display:inherit;
+}
+.leftProduct ul ul li{
+    position:relative;
+    list-style:none;
+    min-width:170px;
+    float:none;
+}
+.leftProduct{
+    flex:1;
+}
+.rightProduct{
+    flex:3;
+}
+.optionProduct{
+    display:flex;
+    justify-content: space-between;
+}
+.sortBlock{
+    background-color: #f3f3f3;
+    width:100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+.imgCartProduct{
+    display:flex;
+    flex-direction: column;
+}
+.imgCartProduct div{
+    padding-top: 20px;
+    display:flex;
+    justify-content:space-around;
+
+}
+.imgCartProduct div div{
+    width: 263px;
+    height: 280px;
+    background-color: #e9e9e9;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
