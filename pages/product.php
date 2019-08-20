@@ -100,10 +100,29 @@
         </div>
     </section>
 
-
-
-
-
+    <section class="Bunner">
+        <div class="wrapperForLeftBannerText">
+            <img src="../img/index/logos_icons/Forma_1.png" alt="">
+            <div class="leftBannerText">
+                <span class="topicBanner">Free Delivery</span>
+                <span class="textBanner">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span>
+            </div>
+        </div>
+        <div class="wrapperForLeftBannerText">
+            <img src="../img/index/logos_icons/Forma_2.png" alt="">
+            <div class="leftBannerText">
+                <span class="topicBanner">Sales & discounts</span>
+                <span class="textBanner">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span>
+            </div>
+        </div>
+        <div class="wrapperForLeftBannerText">
+            <img src="../img/index/logos_icons/Forma_3.png" alt="">
+            <div class="leftBannerText">
+                <span class="topicBanner">Quality assurance</span>
+                <span class="textBanner">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span>
+            </div>
+        </div>
+    </section>
 
 
 <?php require_once '../Header_Footer/Footer.php' ?>
